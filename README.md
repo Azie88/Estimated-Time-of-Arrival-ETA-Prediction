@@ -1,4 +1,6 @@
 # Estimated Time of Arrival (ETA) Prediction
+![App (1)](https://github.com/Azie88/Estimated-Time-of-Arrival-ETA-Prediction/assets/101363399/62edada4-6a6a-415a-9770-774859666d41)
+
 Creating an ML model to predict the estimated time of arrival at the dropoff point for a single journey on a ride-hailing app.
 
 ## Project Summary 📄
