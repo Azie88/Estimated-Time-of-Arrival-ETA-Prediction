@@ -5,7 +5,7 @@ Creating an ML model to predict the estimated time of arrival at the dropoff poi
 
 | Name | Deployed App | Presentation |
 |------|------|-------------------|
-| Yassir ETA prediction | <a href="https://huggingface.co/spaces/Azie88/ETA_prediction">Gradio App on Huggingface</a> | <a href="https://tome.app/club-unbrick/machine-learning-project-eta-prediction-for-yassir-clr6mqgby0349o463g2lgpfjr">Tome Presentation</a>
+| Yassir ETA prediction | <a href="https://huggingface.co/spaces/Azie88/ETA_prediction" target="_blank">Gradio App on Huggingface</a> | <a href="https://tome.app/club-unbrick/machine-learning-project-eta-prediction-for-yassir-clr6mqgby0349o463g2lgpfjr" target="_blank">Tome Presentation</a>
 
 ## Project Structure 📂
 
