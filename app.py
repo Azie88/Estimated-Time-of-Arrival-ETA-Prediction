@@ -39,7 +39,7 @@ def predict(*args, pipeline=pipeline, inputs=inputs):
     return f"{output_str} {model_output} {dist}"
 
    
-with gr.Blocks(theme=gr.themes.Monochrome()) as app:
+with gr.Blocks(theme=gr.themes.Soft()) as app:
   gr.Markdown("# ETA PREDICTION")
   gr.Markdown("""This app uses a machine learning model to predict the ETA of trips on the Yassir Hailing App.Refer to the expander at the bottom for more information on the inputs.""")
 
