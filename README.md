@@ -24,7 +24,7 @@ Creating an ML model to predict the estimated time of arrival at the dropoff poi
 
 You need to have [`Python 3`](https://www.python.org/) on your system. Then you can clone this repo and being at the repo's `root :: repository_name> ...`
 
-1. Clone this repository: `git clone https://github.com/Azie88/LP1-Data-Analysis.git`
+1. Clone this repository: `git clone https://github.com/Azie88/Estimated-Time-of-Arrival-ETA-Prediction.git`
 2. On your IDE, create A Virtual Environment and Install the required packages for the project:
 
 - Windows:
@@ -50,9 +50,25 @@ The two long command-lines have the same structure. They pipe multiple commands 
 
 **NB:** For MacOs users, please install `Xcode` if you have an issue.
 
+- Run the Gradio app (being at the repository root):
+
+  Gradio: 
+  
+    For development
+
+      gradio app.py
+    
+    For normal deployment/execution
+
+      python app.py  
+
+  - Go to your browser at the following address :
+        
+      http://127.0.0.1:7860
+
 3. Explore the Jupyter notebook for detailed steps and code execution.
-4. Check out the Power BI dashboard for interactive visualizations.
-5. Read the published article for a comprehensive understanding of the project.
+4. Check out the live running app on [Huggingface Spaces](https://huggingface.co/spaces/Azie88/ETA_prediction).
+5. Check out the AI generated project Presentation made with the [tone app](https://tome.app/club-unbrick/machine-learning-project-eta-prediction-for-yassir-clr6mqgby0349o463g2lgpfjr).
 
 ## Author✍️
 
