@@ -5,18 +5,18 @@ Creating an ML model to predict the estimated time of arrival at the dropoff poi
 
 ## Project Summary 📄
 
-| Name | Deployed App | Presentation |
+| Project Name | Deployed App | Presentation |
 |------|------|-------------------|
-| Yassir ETA prediction | <a href="https://huggingface.co/spaces/Azie88/ETA_prediction" target="_blank">Gradio App on Huggingface</a> | <a href="https://tome.app/club-unbrick/machine-learning-project-eta-prediction-for-yassir-clr6mqgby0349o463g2lgpfjr" target="_blank">Tome Presentation</a>
+| Yassir ETA prediction | <a href="https://huggingface.co/spaces/Azie88/ETA_Prediction_App" target="_blank">Gradio App on Huggingface</a> | <a href="https://tome.app/club-unbrick/machine-learning-project-eta-prediction-for-yassir-clr6mqgby0349o463g2lgpfjr" target="_blank">Tome Presentation</a>
 
 ## Project Structure 📂
 
-- `Dataset/`: Contains the dataset used for analysis.
+- `dataset/`: Contains the dataset used for analysis, and predicted values.
+- `dev/`: Contains jupyter notebook with full end-to-end ML process
 - `toolkit/`: Pieline with ML model
 - `.gitignore`: Holds files to be ignored by Git.
 - `app.py`: Working Gradio app for prediction
 - `LICENSE`: Project license.
-- `Project_notebook.ipynb`: The jupyter notebook with full end-to-end ML process
 - `README.md`: Project overview, links, highlights, and information.
 - `requirements.txt`: Required libraries & packages
 
@@ -64,11 +64,14 @@ The two long command-lines have the same structure. They pipe multiple commands 
 
   - Go to your browser at the following address :
         
-      http://127.0.0.1:7860
+      http://localhost:7860
 
 3. Explore the Jupyter notebook for detailed steps and code execution.
-4. Check out the live running app on [Huggingface Spaces](https://huggingface.co/spaces/Azie88/ETA_prediction).
+4. Check out the live running app on [Huggingface Spaces](https://huggingface.co/spaces/Azie88/ETA_Prediction_App).
 5. Check out the AI generated project Presentation made with the [tone app](https://tome.app/club-unbrick/machine-learning-project-eta-prediction-for-yassir-clr6mqgby0349o463g2lgpfjr).
+
+## Gradio App Screenshots
+
 
 ## Author✍️
 
