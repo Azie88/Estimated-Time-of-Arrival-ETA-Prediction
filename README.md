@@ -73,7 +73,8 @@ The two long command-lines have the same structure. They pipe multiple commands 
 ## Gradio App Screenshots
 
 ![Gradio App 1](https://github.com/Azie88/Estimated-Time-of-Arrival-ETA-Prediction/assets/101363399/2208e2eb-d271-40b6-a495-1880ce7f2e50)
-![screenshot 2](https://github.com/Azie88/Estimated-Time-of-Arrival-ETA-Prediction/assets/101363399/c8e959f9-1569-4135-a3a3-a72d6d87c01a)
+![Gradio App  2](https://github.com/Azie88/Estimated-Time-of-Arrival-ETA-Prediction/assets/101363399/92ffdbc7-545e-4d3c-b2db-5731d0fdce6c)
+
 
 
 ## Author✍️
