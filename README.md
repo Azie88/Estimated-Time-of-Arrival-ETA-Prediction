@@ -13,7 +13,7 @@ Creating an ML model to predict the estimated time of arrival at the dropoff poi
 
 - `dataset/`: Contains the dataset used for analysis, and predicted values.
 - `dev/`: Contains jupyter notebook with full end-to-end ML process
-- `toolkit/`: Pieline with ML model
+- `toolkit/`: Pipeline with ML model
 - `.gitignore`: Holds files to be ignored by Git.
 - `app.py`: Working Gradio app for prediction
 - `LICENSE`: Project license.
