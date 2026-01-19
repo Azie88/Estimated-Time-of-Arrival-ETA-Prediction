@@ -1,18 +1,123 @@
 # Estimated Time of Arrival (ETA) Prediction
 ![App (1)](https://github.com/Azie88/Estimated-Time-of-Arrival-ETA-Prediction/assets/101363399/62edada4-6a6a-415a-9770-774859666d41)
 
-Creating an ML model to predict the estimated time of arrival at the dropoff point for a single journey on a ride-hailing app.
+This project implements a machine learning solution to predict the **Estimated Time of Arrival (ETA)** for a single journey in a ride-hailing app context.  
+The objective is to improve trip planning accuracy by learning patterns from historical trip data, including geographic and trip-level characteristics.
+
+---
 
 ## Project Summary 📄
 
-| Project Name | Deployed App | Presentation |
-|------|------|-------------------|
-| Yassir ETA prediction | <a href="https://huggingface.co/spaces/Azie88/ETA_Prediction_App" target="_blank">Gradio App on Huggingface</a> | <a href="https://tome.app/club-unbrick/machine-learning-project-eta-prediction-for-yassir-clr6mqgby0349o463g2lgpfjr" target="_blank">Tome Presentation</a>
+| Project Name | Deployed App |
+|------|------|
+| ETA prediction | <a href="https://huggingface.co/spaces/Azie88/ETA_Prediction_App" target="_blank">Gradio App on Huggingface</a> |
+
+---
+
+## Executive Summary of Results
+
+This project evaluated multiple machine learning models to predict Estimated Time of Arrival using historical trip data. Among the tested approaches, gradient-boosted tree models consistently outperformed traditional regression and distance-based methods. The final XGBoost model achieved the lowest prediction error, with an RMSE of **152.90**, which further improved to **151.75** after hyperparameter tuning. These results indicate that the model is able to accurately capture complex, non-linear relationships between trip characteristics and travel time, making it suitable for real-world ETA prediction scenarios where consistency and robustness are critical.
+
+---
+
+## Problem Statement
+
+Accurately predicting arrival times is a critical challenge in ride-hailing and logistics platforms.  
+Travel duration is influenced by multiple factors, including distance, geography, and routing patterns.  
+Inaccurate ETAs lead to poor user experience, inefficient fleet management, and increased operational costs.
+
+This project frames ETA estimation as a **supervised regression problem** and applies machine learning to learn patterns from historical trip data.
+
+---
+
+## Solution Approach
+
+The project follows a structured end-to-end machine learning workflow:
+
+1. **Data Understanding & Cleaning**
+   - Validation of geographic coordinates
+   - Handling missing and inconsistent values
+
+2. **Exploratory Data Analysis (EDA)**
+   - Univariate and bivariate analysis
+   - Spatial visualization of origin and destination points
+   - Statistical hypothesis testing
+
+3. **Feature Engineering**
+   - Use of origin and destination coordinates
+   - Derived trip-level features
+   - Preparation of data for modeling
+
+4. **Modeling & Evaluation**
+   - Multiple regression models evaluated
+   - Proper train/validation/test split
+   - Comparison using standard regression metrics
+
+5. **Deployment**
+   - Model wrapped in a Gradio application
+   - Deployed publicly via Hugging Face Spaces
+
+---
+
+## Model Performance & Evaluation
+
+The models were evaluated using **Root Mean Squared Error (RMSE)**, which penalizes larger prediction errors and is well-suited for ETA prediction tasks.
+
+### Model Comparison Results
+
+| Model | RMSE (Lower is Better) |
+|------|------------------------|
+| **XGBoost (XGB)** | **152.904** |
+| LightGBM (LGBM) | 170.359 |
+| Linear Regression | 217.904 |
+| K-Nearest Neighbors (KNN) | 236.419 |
+| Random Forest | 241.029 |
+| Decision Tree | 256.356 |
+
+### Interpretation
+
+- XGBoost achieved the lowest RMSE, indicating the highest overall prediction accuracy.
+- Ensemble tree-based models significantly outperformed simpler and more rigid models.
+- Higher RMSE values suggest reduced robustness, particularly for longer or more complex trips.
+
+In practical terms, an RMSE of ~153 means the model’s predictions deviate from the true ETA by approximately that amount (depending on the dataset’s time scale), with fewer extreme errors compared to other models.
+
+---
+
+### Final Model Selection
+
+**XGBoost was selected as the final model** due to its superior performance and robustness.
+
+After hyperparameter tuning, the XGBoost model achieved:
+
+- **Tuned XGBoost RMSE:** **151.75**
+
+This confirms that careful parameter optimization can further improve predictive accuracy beyond the baseline model.
+
+---
+
+## Why XGBoost?
+
+XGBoost was selected as the final model because it offers an effective balance between performance, flexibility, and real-world applicability.
+
+From a technical perspective:
+- It captures **non-linear relationships** better than linear models
+- It handles **feature interactions** automatically
+- It is robust to noise and outliers common in operational trip data
+
+From a business and stakeholder perspective:
+- It delivers **more reliable ETAs**, reducing extreme under- or over-estimations
+- It scales well to larger datasets
+- It is widely adopted in industry, making it a proven and trusted solution
+
+These characteristics make XGBoost a strong choice for production-oriented ETA prediction systems.
+
+---
 
 ## Project Structure 📂
 
-- `dataset/`: Contains the dataset used for analysis, and predicted values.
-- `dev/`: Contains jupyter notebook with full end-to-end ML process
+- `Dataset/`: Contains the dataset used for analysis, and predicted values.
+- `Dev/`: Contains jupyter notebook with full end-to-end ML process
 - `toolkit/`: Pipeline with ML model
 - `.gitignore`: Holds files to be ignored by Git.
 - `app.py`: Working Gradio app for prediction
@@ -68,7 +173,6 @@ The two long command-lines have the same structure. They pipe multiple commands 
 
 3. Explore the Jupyter notebook for detailed steps and code execution.
 4. Check out the live running app on [Huggingface Spaces](https://huggingface.co/spaces/Azie88/ETA_Prediction_App).
-5. Check out the AI generated project Presentation made with the [tone app](https://tome.app/club-unbrick/machine-learning-project-eta-prediction-for-yassir-clr6mqgby0349o463g2lgpfjr).
 
 ## Gradio App Screenshots
 
