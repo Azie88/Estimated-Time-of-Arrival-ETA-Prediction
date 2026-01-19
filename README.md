@@ -173,12 +173,6 @@ The two long command-lines have the same structure. They pipe multiple commands 
 3. Explore the Jupyter notebook for detailed steps and code execution.
 4. Check out the live running app on [Huggingface Spaces](https://huggingface.co/spaces/Azie88/ETA_Prediction_App).
 
-## Gradio App Screenshots
-
-![Gradio App 1](https://github.com/Azie88/Estimated-Time-of-Arrival-ETA-Prediction/assets/101363399/2208e2eb-d271-40b6-a495-1880ce7f2e50)
-![Gradio App  2](https://github.com/Azie88/Estimated-Time-of-Arrival-ETA-Prediction/assets/101363399/92ffdbc7-545e-4d3c-b2db-5731d0fdce6c)
-
-
 ## Contributions :handshake:
 
 Open an issue, submit a pull request or contact me for any contributions.
