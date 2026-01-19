@@ -179,12 +179,18 @@ The two long command-lines have the same structure. They pipe multiple commands 
 ![Gradio App  2](https://github.com/Azie88/Estimated-Time-of-Arrival-ETA-Prediction/assets/101363399/92ffdbc7-545e-4d3c-b2db-5731d0fdce6c)
 
 
+## Contributions :handshake:
 
-## Author✍️
+Open an issue, submit a pull request or contact me for any contributions.
+
+## Author :writing_hand:
 
 Andrew Obando
 
-Connect with me on LinkedIn: [Andrew Obando](https://www.linkedin.com/in/andrewobando/)
+<a href="https://www.linkedin.com/in/andrewobando/"><img align="left" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="Andrew Obando | LinkedIn"/></a>
+<a href="https://medium.com/@obandoandrew8">
+![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)
+</a>
 
 ---
 
