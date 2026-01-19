@@ -2,11 +2,10 @@
 ![App (1)](https://github.com/Azie88/Estimated-Time-of-Arrival-ETA-Prediction/assets/101363399/62edada4-6a6a-415a-9770-774859666d41)
 
 This project implements a machine learning solution to predict the **Estimated Time of Arrival (ETA)** for a single journey in a ride-hailing app context.  
-The objective is to improve trip planning accuracy by learning patterns from historical trip data, including geographic and trip-level characteristics.
 
 ---
 
-## Project Summary 📄
+## Gradio App Huggingface Link
 
 | Project Name | Deployed App |
 |------|------|
